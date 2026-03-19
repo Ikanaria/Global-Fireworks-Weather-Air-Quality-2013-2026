@@ -1,4 +1,4 @@
-# 🎆 Fireworks Environmental Impact — Global Data Collection Project
+#  Fireworks Environmental Impact, Global Data Collection Project
 
 A comprehensive data collection and analysis pipeline investigating the environmental impact of fireworks events worldwide. The project collects historical weather, air quality, and soil data for New Year's Eve and other major fireworks events across 155+ countries and hundreds of cities for the years 2013–2025.
 

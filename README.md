@@ -289,10 +289,9 @@ erDiagram
         float a_pm2_5
         float a_pm10
         float a_nitrogen_dioxide
-        string "...21 weather cols"
-        string "...9 air quality cols"
+        string weather_cols_x21
+        string air_quality_cols_x9
     }
-
     silvester_soil_2013_2025 {
         string country
         string city
@@ -305,7 +304,6 @@ erDiagram
         float s_soil_moisture_profile
         float s_soil_temperature_1
     }
-
     fixed_events_2013_2025 {
         string event
         string country
@@ -315,11 +313,10 @@ erDiagram
         string time
         int year
         int is_event_day
-        string "...weather cols"
-        string "...air quality cols"
-        string "...soil cols"
+        string weather_cols
+        string air_quality_cols
+        string soil_cols
     }
-
     variable_events_2013_2025 {
         string event
         string country
@@ -329,11 +326,10 @@ erDiagram
         string time
         int year
         int is_event_day
-        string "...weather cols"
-        string "...air quality cols"
-        string "...soil cols"
+        string weather_cols
+        string air_quality_cols
+        string soil_cols
     }
-
     reference_days_2013_2025 {
         string event
         string reference_type
@@ -344,11 +340,10 @@ erDiagram
         string time
         int year
         int days_offset_from_event
-        string "...weather cols"
-        string "...air quality cols"
-        string "...soil cols"
+        string weather_cols
+        string air_quality_cols
+        string soil_cols
     }
-
     country_population_2013_2025 {
         string country
         string iso3
@@ -357,7 +352,6 @@ erDiagram
         float population_density_per_km2
         float urban_population_pct
     }
-
     city_population_2013_2025 {
         string city
         string country
@@ -367,7 +361,6 @@ erDiagram
         int population_estimate
         string source
     }
-
     elevation_all_locations {
         string location_type
         string name

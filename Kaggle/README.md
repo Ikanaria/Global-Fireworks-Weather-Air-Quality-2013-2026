@@ -131,7 +131,7 @@ parquet_export/
 ## Key Findings & Research Questions
 
 Analysis of this dataset revealed several unexpected results:
-
+- **PM10 rises 26% on New Year's Eve** at the grid-cell scale (ERA5/CAMS model data; local peaks near fireworks sites will be higher), recovering within days with no measurable trace in soil data.
 - **SO₂ and NO₂ fall on New Year's Eve** (−52% and −35% vs. Ref −7), because holiday
   traffic reductions outweigh pyrotechnic emissions — making PM10 a more reliable
   fireworks indicator than gas-phase measurements.
@@ -140,7 +140,7 @@ Analysis of this dataset revealed several unexpected results:
 - **City size and urbanization do not predict fireworks air quality.** Weather does —
   particularly boundary layer height and wind speed.
 - **Diwali produces the strongest air quality impact** of all celebrations covered.
-- The fireworks PM10 signal in Berlin, London, and Paris **has not weakened over 13 years**
+- The fireworks PM10 signal in Berlin, London, and Paris **shows no systematic decline over 13 years in ERA5/CAMS model data**
   despite ongoing regulatory discussions.
 
 Open questions for further exploration:
@@ -164,6 +164,7 @@ Open questions for further exploration:
   `Viet Nam` → `Vietnam`, `Türkiye` consistent).
 - **ERA5 reanalysis**: Weather data uses ERA5 reanalysis for past dates,
   ERA5-Land for soil variables.
+- **Model data caveat**: Air quality variables (PM10, PM2.5, SO₂, NO₂, etc.) are outputs of the CAMS atmospheric model as served via Open-Meteo, not ground-based measurements. Spatial resolution is approximately 10–40 km depending on the variable. All values represent grid-cell averages, local peaks near fireworks sites are likely considerably higher than reported here. Results describe atmospheric-background-level effects, not street-level exposure.
 
 ---
 
